@@ -55,17 +55,33 @@ ring('white', 40)
 ##### Draw eyes black #####
 
 #6Draw eyes of Panda with black and white color concentric circles.
+##### Draw eyes black #####
+
 # Draw first eye
 pen.up()
 pen.setpos(-18, 75)
+pen.down
+ring('black', 8)
+
+# Draw second eye
+pen.up()
+pen.setpos(18, 75)
 pen.down()
 ring('black', 8)
+
+##### Draw eyes white #####
+
+# Draw first eye
+pen.up()
+pen.setpos(-18, 77)
+pen.down()
+ring('white', 4)
 
 # Draw second eye
 pen.up()
 pen.setpos(18, 77)
 pen.down()
-ring('black', 8)
+ring('white', 4)
 
 #7Draw nose of Panda with black color circle.
 ##### Draw nose #####
